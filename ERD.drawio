@@ -280,9 +280,6 @@
         <mxCell id="bzbq1bPuCOcQHrUb1Hf9-38" value="묶인 결함번호 목록 (JSON)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bzbq1bPuCOcQHrUb1Hf9-35">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bzbq1bPuCOcQHrUb1Hf9-76" value="결함 번호&amp;nbsp; (INT) key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bzbq1bPuCOcQHrUb1Hf9-35">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="bzbq1bPuCOcQHrUb1Hf9-39" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=ERzeroToMany;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;startArrow=ERmandOne;" edge="1" parent="1" source="bzbq1bPuCOcQHrUb1Hf9-1" target="bzbq1bPuCOcQHrUb1Hf9-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-950.67" y="1056.8823529411764" as="sourcePoint" />
@@ -360,8 +357,8 @@
         <mxCell id="bzbq1bPuCOcQHrUb1Hf9-26" value="선 표시 여부 (ENUM : Y,N)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bzbq1bPuCOcQHrUb1Hf9-54">
           <mxGeometry y="182" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bzbq1bPuCOcQHrUb1Hf9-74" value="결함 번호&amp;nbsp; (INT) key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bzbq1bPuCOcQHrUb1Hf9-54">
-          <mxGeometry y="208" width="160" height="26" as="geometry" />
+        <mxCell id="bzbq1bPuCOcQHrUb1Hf9-77" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;결함번호&lt;/h1&gt;&lt;p&gt;DB에는 따로 저장 안하고...&lt;/p&gt;&lt;p&gt;리스트 순서대로 번호 붙이기?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="1290" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
