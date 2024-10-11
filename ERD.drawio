@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2203" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2534" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -723,16 +723,13 @@
         </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-107" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=ERzeroToMany;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;startArrow=ERmandOne;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="itaZ27llrH_9UAN2lMeX-109" target="itaZ27llrH_9UAN2lMeX-142">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-369.9999999999999" y="2422" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-340" y="1859" />
-              <mxPoint x="-390" y="1860" />
-            </Array>
-            <mxPoint x="-200" y="2422" as="sourcePoint" />
+            <mxPoint x="-310" y="2020" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="-310" y="1780" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-108" value="결함 그룹" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-270" y="1820" width="160" height="104" as="geometry" />
+          <mxGeometry x="-280" y="1860" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-109" value="PID&amp;nbsp;(AUTO_INCREMENT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-108">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -778,7 +775,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-126" value="숫자 위치" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-549.9999999999999" y="2236" width="160" height="338" as="geometry">
+          <mxGeometry x="-550" y="2236" width="160" height="286" as="geometry">
             <mxRectangle x="-629.33" y="880" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -797,26 +794,20 @@
         <mxCell id="itaZ27llrH_9UAN2lMeX-131" value="결함 그룹 ID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-132" value="표시 그룹 ID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-133" value="날짜 (DATE)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-133" value="날짜 (DATE)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-135" value="결함 내용 PID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
           <mxGeometry y="182" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-134" value="숫자 순서 번호 (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-136" value="그룹화 여부 (ENUM : Y,N)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
           <mxGeometry y="208" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-135" value="결함 내용 PID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-137" value="숫자 색상&amp;nbsp; (STRING)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
           <mxGeometry y="234" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-136" value="그룹화 여부 (ENUM : Y,N)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
-          <mxGeometry y="260" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-137" value="숫자 색상&amp;nbsp; (STRING)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
-          <mxGeometry y="286" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-138" value="결함 정보 ID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-126">
-          <mxGeometry y="312" width="160" height="26" as="geometry" />
+          <mxGeometry y="260" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-139" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=ERzeroToMany;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;elbow=horizontal;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="itaZ27llrH_9UAN2lMeX-85" target="itaZ27llrH_9UAN2lMeX-88">
           <mxGeometry relative="1" as="geometry">
@@ -831,7 +822,7 @@
           <mxGeometry x="-965.19" y="2582" width="315.19" height="410" as="geometry" />
         </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-141" value="점 위치" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-550" y="1820" width="160" height="340" as="geometry">
+          <mxGeometry x="-550" y="1860" width="160" height="312" as="geometry">
             <mxRectangle x="-629.33" y="880" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -850,26 +841,23 @@
         <mxCell id="itaZ27llrH_9UAN2lMeX-146" value="결함 그룹 ID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-147" value="표시 그룹 ID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-148" value="날짜 (DATE)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-148" value="날짜 (DATE)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-149" value="점 순서 번호 (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
           <mxGeometry y="182" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-149" value="점 순서 번호 (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-150" value="결함 내용 PID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
           <mxGeometry y="208" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-150" value="결함 내용 PID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-151" value="그룹화 여부 (ENUM : Y,N)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
           <mxGeometry y="234" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-151" value="그룹화 여부 (ENUM : Y,N)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
+        <mxCell id="itaZ27llrH_9UAN2lMeX-152" value="점 색상&amp;nbsp; (STRING)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
           <mxGeometry y="260" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="itaZ27llrH_9UAN2lMeX-152" value="점 색상&amp;nbsp; (STRING)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
-          <mxGeometry y="286" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-153" value="결함 정보 ID (INT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="itaZ27llrH_9UAN2lMeX-141">
-          <mxGeometry y="312" width="160" height="26" as="geometry" />
+          <mxGeometry y="286" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="itaZ27llrH_9UAN2lMeX-154" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=ERzeroToMany;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;elbow=horizontal;startArrow=ERmandOne;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="itaZ27llrH_9UAN2lMeX-83" target="itaZ27llrH_9UAN2lMeX-142">
           <mxGeometry relative="1" as="geometry">
@@ -882,9 +870,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-470" y="2120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-470" y="2200" />
-              <mxPoint x="-469" y="2200" />
-              <mxPoint x="-469" y="2160" />
+              <mxPoint x="-470" y="2236" />
+              <mxPoint x="-470" y="2172" />
             </Array>
             <mxPoint x="-260" y="2119" as="sourcePoint" />
           </mxGeometry>
@@ -893,6 +880,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-459" y="2622" as="targetPoint" />
             <mxPoint x="-460" y="2584" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-360" y="2159" />
+              <mxPoint x="-360" y="2651" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
