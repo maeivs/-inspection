@@ -1103,7 +1103,7 @@
         <mxCell id="18FnP7e4lEqi-_SCI2f--150" value="qty (TINYINT) 수량" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18FnP7e4lEqi-_SCI2f--135" vertex="1">
           <mxGeometry y="234" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="18FnP7e4lEqi-_SCI2f--147" value="progress (ENUM) 진행상황" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18FnP7e4lEqi-_SCI2f--135" vertex="1">
+        <mxCell id="18FnP7e4lEqi-_SCI2f--147" value="status (ENUM) 진행상황" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18FnP7e4lEqi-_SCI2f--135" vertex="1">
           <mxGeometry y="260" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="18FnP7e4lEqi-_SCI2f--148" value="note (ENUM) 비고" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18FnP7e4lEqi-_SCI2f--135" vertex="1">
